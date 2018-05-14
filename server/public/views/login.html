@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col s3"></div>
+     <div class="col s6">
+        <div class="row">
+            <div class="col s12">
+                <p style="margin-bottom: 10%"></p>
+                <div class="card">                            
+                    <div class="card-content">
+                        <div class="row">
+                            <form class="col s12" ng-submit="loginUser()">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="email" type="text" ng-model="user.email" required>                                        
+                                    </div>                                            
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="password" type="password" ng-model="user.password" required>
+                                        
+                                    </div>                                            
+                                </div>
+                                <button class="col s12 waves-effect waves-light btn pink purple darken-4">Login</button>                                        
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action center">
+                        <p>Not a member yet? <a href="#register">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col s3"></div>
+</div>
+
+<p>{{ message }}</p>
